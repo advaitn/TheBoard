@@ -4,8 +4,8 @@
   "description": "A Whiteboard using the matrix protocol for collaboration and cloud storage",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "webpack --config webpack.prod.js",
-    "start": "webpack serve --config webpack.dev.js"
+    "build": "webpack --config --openssl-legacy-provider webpack.prod.js",
+    "start": "webpack serve --config --openssl-legacy-provider webpack.dev.js"
   },
   "repository": "git+https://github.com/toger5/TheBoard.git",
   "author": "Timo k. <toger5@hotmail.de>",
